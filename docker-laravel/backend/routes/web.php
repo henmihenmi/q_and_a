@@ -17,9 +17,17 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::get('{any}', function(){
-    return view('app');
+Route::get('/{any}', function(){
+    return view('App');
 })->where('any', '.*'); //補足：.*は、正規表現で0文字以上の任意の文字列を意味する
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Auth::routes();
 

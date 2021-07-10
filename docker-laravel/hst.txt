@@ -1,0 +1,500 @@
+   63  2021-07-06 01:47:04 rm -rf node_modules
+   64  2021-07-06 01:47:04 npm install
+   65  2021-07-06 01:47:04 cd ..
+   66  2021-07-06 01:47:04 ls
+   67  2021-07-06 01:47:04 cd ..
+   68  2021-07-06 01:47:04 cd ./Documents/nextjs-blog
+   69  2021-07-06 01:47:04 git branch
+   70  2021-07-06 01:47:04 git status
+   71  2021-07-06 01:47:04 git remote add origin https://github.com/henmihenmi/nextjs-blog.git
+   72  2021-07-06 01:47:04 git push -u origin main
+   73  2021-07-06 01:47:04 git status
+   74  2021-07-06 01:47:04 ls
+   75  2021-07-06 01:47:04 git branch
+   76  2021-07-06 01:47:04 git branch -b feature-top_page
+   77  2021-07-06 01:47:04 git branch
+   78  2021-07-06 01:47:04 git checkout -b "feature-top_page"
+   79  2021-07-06 01:47:04 git branch
+   80  2021-07-06 01:47:04 git status
+   81  2021-07-06 01:47:04 git status
+   82  2021-07-06 01:47:04 git add .
+   83  2021-07-06 01:47:04 git status
+   84  2021-07-06 01:47:04 cd ..
+   85  2021-07-06 01:47:04 nextjs-blog
+   86  2021-07-06 01:47:04 cd nextjs-blog
+   87  2021-07-06 01:47:04 git status
+   88  2021-07-06 01:47:04 yarn dev
+   89  2021-07-06 01:47:04 yarn dev
+   90  2021-07-06 01:47:04 yarn dev
+   91  2021-07-06 01:47:04 yarn dev
+   92  2021-07-06 01:47:04 cd .
+   93  2021-07-06 01:47:04 cd ..
+   94  2021-07-06 01:47:04 cd ..
+   95  2021-07-06 01:47:04 cd Desktop
+   96  2021-07-06 01:47:04 cd ..
+   97  2021-07-06 01:47:04 ls
+   98  2021-07-06 01:47:04 cd Documents
+   99  2021-07-06 01:47:04 ls
+  100  2021-07-06 01:47:04 yarn create next-app nextjs-blog --example "https://github.com/zeit/next-learn-starter/tree/master/basics-final"
+  101  2021-07-06 01:47:04 ls
+  102  2021-07-06 01:47:04 cd ..
+  103  2021-07-06 01:47:04 cd Documents/extjs
+  104  2021-07-06 01:47:04 cd Documents/nextjs-blog
+  105  2021-07-06 01:47:04 yarn dev
+  106  2021-07-06 01:47:04 yarn dev
+  107  2021-07-06 01:47:04 yarn dev
+  108  2021-07-06 01:47:04 cd ..
+  109  2021-07-06 01:47:04 study-react
+  110  2021-07-06 01:47:04 cd study-react
+  111  2021-07-06 01:47:04 yarn dev
+  112  2021-07-06 01:47:04 cd ..
+  113  2021-07-06 01:47:04 cd nextjs-blog
+  114  2021-07-06 01:47:04 yarn add eslint --dev
+  115  2021-07-06 01:47:04 yarn run eslint --init
+  116  2021-07-06 01:47:04 ls
+  117  2021-07-06 01:47:04 yarn add isomorphic-unfetch
+  118  2021-07-06 01:47:04 yarn dev
+  119  2021-07-06 01:47:04 yarn add isomorphic-unfetch
+  120  2021-07-06 01:47:04 yarn dev
+  121  2021-07-06 01:47:04 git branch
+  122  2021-07-06 01:47:04 git log
+  123  2021-07-06 01:47:04 git checkout HEAD .
+  124  2021-07-06 01:47:04 git branch
+  125  2021-07-06 01:47:04 git status
+  126  2021-07-06 01:47:04 git checkout HEAD .
+  127  2021-07-06 01:47:04 git checkout .
+  128  2021-07-06 01:47:04 git status
+  129  2021-07-06 01:47:04 git reset --hard 052d50e331d68c044a3e2794dfd39ab2e0ba74f8
+  130  2021-07-06 01:47:04 git branch
+  131  2021-07-06 01:47:04 git status
+  132  2021-07-06 01:47:04 git status
+  133  2021-07-06 01:47:04 yarn dev
+  134  2021-07-06 01:47:04 cd ..
+  135  2021-07-06 01:47:04 cd my-blog
+  136  2021-07-06 01:47:04 ls
+  137  2021-07-06 01:47:04 $ npx create-next-app my-blog
+  138  2021-07-06 01:47:04 npx create-next-app my-blog
+  139  2021-07-06 01:47:04 npx create-next-app my-blog
+  140  2021-07-06 01:47:04 cd ..
+  141  2021-07-06 01:47:04 cd ~./Document
+  142  2021-07-06 01:47:04 cd ..
+  143  2021-07-06 01:47:04 cd Document
+  144  2021-07-06 01:47:04 ls
+  145  2021-07-06 01:47:04 cd ~./Documents
+  146  2021-07-06 01:47:04 cd Documents
+  147  2021-07-06 01:47:04 npx create-next-app my-blog
+  148  2021-07-06 01:47:04 cd my-blog
+  149  2021-07-06 01:47:04 yarn dev
+  150  2021-07-06 01:47:04 yarn dev
+  151  2021-07-06 01:47:04 yarn add isomorphic-unfetch
+  152  2021-07-06 01:47:04 yarn dev
+  153  2021-07-06 01:47:04 git commit -m "first commit"
+  154  2021-07-06 01:47:04 git branch
+  155  2021-07-06 01:47:04 git status
+  156  2021-07-06 01:47:04 git add .
+  157  2021-07-06 01:47:04 git stautus
+  158  2021-07-06 01:47:04 git commit -m "first commit"
+  159  2021-07-06 01:47:04 git remote add origin git@github.com:henmihenmi/my-blog.git
+  160  2021-07-06 01:47:04 git push -u origin main
+  161  2021-07-06 01:47:04 git log
+  162  2021-07-06 01:47:04 yarn dev
+  163  2021-07-06 01:47:04 yarn dev
+  164  2021-07-06 01:47:04 git status
+  165  2021-07-06 01:47:04 yarn dev
+  166  2021-07-06 01:47:04 git status
+  167  2021-07-06 01:47:04 git add .
+  168  2021-07-06 01:47:04 git commit -m ".envを編集"
+  169  2021-07-06 01:47:04 git status
+  170  2021-07-06 01:47:04 git push origin main
+  171  2021-07-06 01:47:04 git status
+  172  2021-07-06 01:47:04 gti branch
+  173  2021-07-06 01:47:04 yarn dev
+  174  2021-07-06 01:47:04 yarn dev
+  175  2021-07-06 01:47:04 git status
+  176  2021-07-06 01:47:04 git add .
+  177  2021-07-06 01:47:04 git commit -m "環境変数ファイルを編集"
+  178  2021-07-06 01:47:04 git push origin main
+  179  2021-07-06 01:47:04 git status
+  180  2021-07-06 01:47:04 yarn dev
+  181  2021-07-06 01:47:04 cd ..
+  182  2021-07-06 01:47:04 ls
+  183  2021-07-06 01:47:04 cd study-react
+  184  2021-07-06 01:47:04 cd ~/Documents/my-blog
+  185  2021-07-06 01:47:04 yarn dev
+  186  2021-07-06 01:47:04 yarn dev
+  187  2021-07-06 01:47:04 git status
+  188  2021-07-06 01:47:04 git branch
+  189  2021-07-06 01:47:04 git init
+  190  2021-07-06 01:47:04 git status
+  191  2021-07-06 01:47:04 git log
+  192  2021-07-06 01:47:04 git add .
+  193  2021-07-06 01:47:04 git status
+  194  2021-07-06 01:47:04 git remote add origin git@github.com:henmihenmi/my-blog.git
+  195  2021-07-06 01:47:04 git commit -m "first commit"
+  196  2021-07-06 01:47:04 echo "# my-blog" >> README.md
+  197  2021-07-06 01:47:04 git init
+  198  2021-07-06 01:47:04 git remote add git@github.com:henmihenmi/my_blog.git
+  199  2021-07-06 01:47:04 git remote add origin git@github.com:henmihenmi/my_blog.git
+  200  2021-07-06 01:47:04 git remote set-url origin git@github.com:henmihenmi/my_blog.git
+  201  2021-07-06 01:47:04 git remote -v
+  202  2021-07-06 01:47:04 git status
+  203  2021-07-06 01:47:04 git add .
+  204  2021-07-06 01:47:04 git commit -m "first commit"
+  205  2021-07-06 01:47:04 git push -u origin main
+  206  2021-07-06 01:47:04 git branch
+  207  2021-07-06 01:47:04 cd ..
+  208  2021-07-06 01:47:04 ls
+  209  2021-07-06 01:47:04 cd repo
+  210  2021-07-06 01:47:04 git clone git@github.com:henmihenmi/my_blog.git
+  211  2021-07-06 01:47:04 git remote -v
+  212  2021-07-06 01:47:04 cd ..
+  213  2021-07-06 01:47:04 cd my-blog
+  214  2021-07-06 01:47:04 git remote -v
+  215  2021-07-06 01:47:04 rm -rf .git
+  216  2021-07-06 01:47:04 git remote -v
+  217  2021-07-06 01:47:04 git branch
+  218  2021-07-06 01:47:04 git init
+  219  2021-07-06 01:47:04 git status
+  220  2021-07-06 01:47:04 git add .
+  221  2021-07-06 01:47:04 git commit -m "first commit"
+  222  2021-07-06 01:47:04 git remote add origin git@github.com:henmihenmi/my-blog.git
+  223  2021-07-06 01:47:04 git push -u origin main
+  224  2021-07-06 01:47:04 git remote -v
+  225  2021-07-06 01:47:04 git status
+  226  2021-07-06 01:47:04 git log
+  227  2021-07-06 01:47:04 git push -u origin main
+  228  2021-07-06 01:47:04 git push origin main
+  229  2021-07-06 01:47:04 git branch
+  230  2021-07-06 01:47:04 git push -u origin master
+  231  2021-07-06 01:47:04 node --v
+  232  2021-07-06 01:47:04 node.js --v
+  233  2021-07-06 01:47:04 node.js -v
+  234  2021-07-06 01:47:04 node -v
+  235  2021-07-06 01:47:04 git branch
+  236  2021-07-06 01:47:04 git status
+  237  2021-07-06 01:47:04 cd ~/Documents/study-react
+  238  2021-07-06 01:47:04 yarn dev
+  239  2021-07-06 01:47:04 cd ~/Documents/my-blog
+  240  2021-07-06 01:47:04 ls
+  241  2021-07-06 01:47:04 ls -la
+  242  2021-07-06 01:47:04 ls
+  243  2021-07-06 01:47:04 git branch
+  244  2021-07-06 01:47:04 git checkout -b "feature-create-header-components"
+  245  2021-07-06 01:47:04 git branch
+  246  2021-07-06 01:47:04 branch
+  247  2021-07-06 01:47:04 git branch
+  248  2021-07-06 01:47:04 git log
+  249  2021-07-06 01:47:04 git checkout HEAD .
+  250  2021-07-06 01:47:04 git status
+  251  2021-07-06 01:47:04 git reset --hard fe6034029d8cbda0c4916df8f6869da4278300f4
+  252  2021-07-06 01:47:04 git log
+  253  2021-07-06 01:47:04 git status
+  254  2021-07-06 01:47:04 git reset --hard fe6034029d8cbda0c4916df8f6869da4278300f4
+  255  2021-07-06 01:47:04 git status
+  256  2021-07-06 01:47:04 git status
+  257  2021-07-06 01:47:04 git status
+  258  2021-07-06 01:47:04 git log
+  259  2021-07-06 01:47:04 git log
+  260  2021-07-06 01:47:04 brew install fish
+  261  2021-07-06 01:47:04 cd ~/Documents/my-blog
+  262  2021-07-06 01:47:04 yarn dev
+  263  2021-07-06 01:47:04 cd ..
+  264  2021-07-06 01:47:04 npx create-next-app timer
+  265  2021-07-06 01:47:04 cd time
+  266  2021-07-06 01:47:04 cd timer
+  267  2021-07-06 01:47:04 ls
+  268  2021-07-06 01:47:04 yarn dev
+  269  2021-07-06 01:47:04 cd ..
+  270  2021-07-06 01:47:04 mkdir timer_js
+  271  2021-07-06 01:47:04 cd js timer
+  272  2021-07-06 01:47:04 cd timer_js
+  273  2021-07-06 01:47:04 touch index.html
+  274  2021-07-06 01:47:04 git status
+  275  2021-07-06 01:47:04 git stauts
+  276  2021-07-06 01:47:04 git status
+  277  2021-07-06 01:47:04 git status
+  278  2021-07-06 01:47:04 gti add .
+  279  2021-07-06 01:47:04 git add .
+  280  2021-07-06 01:47:04 git log
+  281  2021-07-06 01:47:04 git log
+  282  2021-07-06 01:47:04 git status
+  283  2021-07-06 01:47:04 git status
+  284  2021-07-06 01:47:04 git status
+  285  2021-07-06 01:47:04 git status
+  286  2021-07-06 01:47:04 git status
+  287  2021-07-06 01:47:04 git branch
+  288  2021-07-06 01:47:04 git status
+  289  2021-07-06 01:47:04 cd ..
+  290  2021-07-06 01:47:04 git statu
+  291  2021-07-06 01:47:04 git status
+  292  2021-07-06 01:47:04 git checkout . HEAD
+  293  2021-07-06 01:47:04 git checkout HEAD .
+  294  2021-07-06 01:47:04 git branch
+  295  2021-07-06 01:47:04 git branch -d
+  296  2021-07-06 01:47:04 git branch master
+  297  2021-07-06 01:47:04 git branch -d feature-timer_set#4
+  298  2021-07-06 01:47:04 git checkout master
+  299  2021-07-06 01:47:04 git branch -d feature-timer_set#4
+  300  2021-07-06 01:47:04 git branch
+  301  2021-07-06 01:47:04 git checkout -b feature-alert#5
+  302  2021-07-06 01:47:04 git branch
+  303  2021-07-06 01:47:04 git status
+  304  2021-07-06 01:47:04 git checkout HEAD .
+  305  2021-07-06 01:47:04 cd ..
+  306  2021-07-06 01:47:04 ls
+  307  2021-07-06 01:47:04 cd my-blog
+  308  2021-07-06 01:47:04 ls
+  309  2021-07-06 01:47:04 git branch
+  310  2021-07-06 01:47:04 git status
+  311  2021-07-06 01:47:04 git checkout -b initialize_blog
+  312  2021-07-06 01:47:04 git branch
+  313  2021-07-06 01:47:04 git status
+  314  2021-07-06 01:47:04 git status
+  315  2021-07-06 01:47:04 git branch
+  316  2021-07-06 01:47:04 git status
+  317  2021-07-06 01:47:04 git push origin initialize_blog
+  318  2021-07-06 01:47:04 yarn dev
+  319  2021-07-06 01:47:04 docker ps
+  320  2021-07-06 01:47:04 docker-compose exec blog_backend
+  321  2021-07-06 01:47:04 docker-compose exec blog_backend bash
+  322  2021-07-06 01:47:04 docker exec -it blog_backend bash
+  323  2021-07-06 01:47:04 docker exec -it blog_backend bash
+  324  2021-07-06 01:47:04 docker pull php:7.4.20
+  325  2021-07-06 01:47:04 docker-compose down
+  326  2021-07-06 01:47:04 docker-compose up
+  327  2021-07-06 01:47:04 docker ps
+  328  2021-07-06 01:47:04 docker ps -a
+  329  2021-07-06 01:47:04 docker pull node:16.3.0
+  330  2021-07-06 01:47:04 pwd
+  331  2021-07-06 01:47:04 echo
+  332  2021-07-06 01:47:04 echo $HOME
+  333  2021-07-06 01:47:04 pwd
+  334  2021-07-06 01:47:04 ls
+  335  2021-07-06 01:47:04 cd Documents
+  336  2021-07-06 01:47:04 cd my-blog
+  337  2021-07-06 01:47:04 cd ..
+  338  2021-07-06 01:47:04 cd my-blog/
+  339  2021-07-06 01:47:04 ls
+  340  2021-07-06 01:47:04 cd build/
+  341  2021-07-06 01:47:04 docker-compose -V
+  342  2021-07-06 01:47:04 docker-compose build
+  343  2021-07-06 01:47:04 docker-compose build
+  344  2021-07-06 01:47:04 docker images
+  345  2021-07-06 01:47:04 docker-compose up
+  346  2021-07-06 01:47:04 docker-compose up -d
+  347  2021-07-06 01:47:04 docker ps
+  348  2021-07-06 01:47:04 docker ps
+  349  2021-07-06 01:47:04 docker exec -it blog_php bash
+  350  2021-07-06 01:47:04 histry
+  351  2021-07-06 01:47:04 history
+  352  2021-07-06 01:47:04 ll
+  353  2021-07-06 01:47:04 ls
+  354  2021-07-06 01:47:04 ls -l
+  355  2021-07-06 01:47:04 cd ..
+  356  2021-07-06 01:47:04 git clone https://github.com/ucan-lab/docker-laravel.git
+  357  2021-07-06 01:47:04 cd docker-laravel
+  358  2021-07-06 01:47:04 rm -rf .git
+  359  2021-07-06 01:47:04 make create-project
+  360  2021-07-06 01:47:04 make install-recommend-packages
+  361  2021-07-06 01:47:04 docker ps
+  362  2021-07-06 01:47:04 docker ps -a
+  363  2021-07-06 01:47:04 docker container rm practical_pike
+  364  2021-07-06 01:47:04 docker ps -a
+  365  2021-07-06 01:47:04 make create-project
+  366  2021-07-06 01:47:04 docker ps -a
+  367  2021-07-06 01:47:04 docker ps
+  368  2021-07-06 01:47:04 make install-recommend-packages
+  369  2021-07-06 01:47:04 docker ps
+  370  2021-07-06 01:47:04 docker images
+  371  2021-07-06 01:47:04 docker exec -it docker-laravel_web_1 bash
+  372  2021-07-06 01:47:04 docker exec -it docker-laravel_app_1 bash
+  373  2021-07-06 01:47:04 docker exec -it docker-laravel_web_1 bash
+  374  2021-07-06 01:47:04 docker exec -it docker-laravel_web_1 bash
+  375  2021-07-06 01:47:04 docker exec -it docker-laravel_app_1 bash
+  376  2021-07-06 01:47:04 docker ps
+  377  2021-07-06 01:47:04 docker exec -it docker-laravel_app bash
+  378  2021-07-06 01:47:04 docker exec -it docker-laravel_app_1 bash
+  379  2021-07-06 01:47:04 cd ..
+  380  2021-07-06 01:47:04 cd study-react
+  381  2021-07-06 01:47:04 yarn dev
+  382  2021-07-06 01:47:04 cd C:\Users\(username)\AppData\Local\Google\Chrome\User Data\Default\
+  383  2021-07-06 01:47:04 cd C:\Users\henmikentarou\AppData\Local\Google\Chrome\User Data\Defaultls
+  384  2021-07-06 01:47:04 cd C:\Users\henmikentarou\AppData\Local\Google\Chrome\User Data\Defaultls
+  385  2021-07-06 01:47:04 cd \Users\henmikentarou\AppData\Local\Google\Chrome\User Data\Defaultls
+  386  2021-07-06 01:47:04 git add .
+  387  2021-07-06 01:47:04 git commit -m "Add: laravel環境の追加"
+  388  2021-07-06 01:47:04 git push
+  389  2021-07-06 01:47:04 ls
+  390  2021-07-06 01:47:04 cd Documents/
+  391  2021-07-06 01:47:04 mkdir q_and_a
+  392  2021-07-06 01:47:04 cd q_and_a/
+  393  2021-07-06 01:47:04 echo "# q_and_a" >> README.md
+  394  2021-07-06 01:47:04 git init
+  395  2021-07-06 01:47:04 git add README.md
+  396  2021-07-06 01:47:04 git commit -m "first commit"
+  397  2021-07-06 01:47:04 git branch -M main
+  398  2021-07-06 01:47:04 git remote add origin git@github.com:henmihenmi/q_and_a.git
+  399  2021-07-06 01:47:04 git push -u origin main
+  400  2021-07-06 01:47:04 ls
+  401  2021-07-06 01:47:04 cd ..
+  402  2021-07-06 01:47:04 ls
+  403  2021-07-06 01:47:04 cd q_and_a/
+  404  2021-07-06 01:47:04 cp ../my-blog/* .
+  405  2021-07-06 01:47:04 cp -r ../my-blog/* .
+  406  2021-07-06 01:47:04 ls
+  407  2021-07-06 01:47:04 cd build/
+  408  2021-07-06 01:47:04 docker-compose up -d
+  409  2021-07-06 01:47:04 docker-compose down
+  410  2021-07-06 01:47:04 docker-compose up -d
+  411  2021-07-06 01:47:04 docker exec -it q_and_a_php
+  412  2021-07-06 01:47:04 docker exec -it q_and_a_php bash
+  413  2021-07-06 01:47:04 docker ps
+  414  2021-07-06 01:47:04 cd ..
+  415  2021-07-06 01:47:04 cd docker-laravel/
+  416  2021-07-06 01:47:04 ls
+  417  2021-07-06 01:47:04 rm LICENSE
+  418  2021-07-06 01:47:04 ls
+  419  2021-07-06 01:47:04 docker-compose down
+  420  2021-07-06 01:47:04 cd ..
+  421  2021-07-06 01:47:04 cd build/
+  422  2021-07-06 01:47:04 docker-compose down
+  423  2021-07-06 01:47:04 cd ..
+  424  2021-07-06 01:47:04 rm -rf *
+  425  2021-07-06 01:47:04 git clone https://github.com/ucan-lab/docker-laravel.git
+  426  2021-07-06 01:47:04 mv docker-laravel/* .
+  427  2021-07-06 01:47:04 rm docker-laravel
+  428  2021-07-06 01:47:04 rm -r docker-laravel
+  429  2021-07-06 01:47:04 rm -rf docker-laravel
+  430  2021-07-06 01:47:04 ls
+  431  2021-07-06 01:47:04 rm LICENSE
+  432  2021-07-06 01:47:04 ls
+  433  2021-07-06 01:47:04 make create-project
+  434  2021-07-06 01:47:04 ls
+  435  2021-07-06 01:47:04 cd Documents
+  436  2021-07-06 01:47:04 cd q_and_a/
+  437  2021-07-06 01:47:04 make create-project
+  438  2021-07-06 01:47:04 composer require laravel/ui
+  439  2021-07-06 01:47:04 ls
+  440  2021-07-06 01:47:04 cd docker-laravel
+  441  2021-07-06 01:47:04 cd backend
+  442  2021-07-06 01:47:04 ls
+  443  2021-07-06 01:47:04 cd ..
+  444  2021-07-06 01:47:04 cd infra/
+  445  2021-07-06 01:47:04 ls
+  446  2021-07-06 01:47:04 cd docker/
+  447  2021-07-06 01:47:04 ls
+  448  2021-07-06 01:47:04 cd ..
+  449  2021-07-06 01:47:04 cd ..
+  450  2021-07-06 01:47:04 make create-project
+  451  2021-07-06 01:47:04 make create-project
+  452  2021-07-06 01:47:04 cd ..
+  453  2021-07-06 01:47:04 ls
+  454  2021-07-06 01:47:04 rm q_and_a/*
+  455  2021-07-06 01:47:04 rm -r q_and_a/*
+  456  2021-07-06 01:47:04 ls
+  457  2021-07-06 01:47:04 cd q_and_a/
+  458  2021-07-06 01:47:04 ls
+  459  2021-07-06 01:47:04 git clone git@github.com:ucan-lab/docker-laravel.git
+  460  2021-07-06 01:47:04 ls
+  461  2021-07-06 01:47:04 cd docker-laravel/
+  462  2021-07-06 01:47:04 ls
+  463  2021-07-06 01:47:04 cd infra/
+  464  2021-07-06 01:47:04 ls
+  465  2021-07-06 01:47:04 cd ..
+  466  2021-07-06 01:47:04 make create-project
+  467  2021-07-06 01:47:04 make create-project
+  468  2021-07-06 01:47:04 make create-project
+  469  2021-07-06 01:47:04 make create-project
+  470  2021-07-06 01:47:04 php artisan tinker
+  471  2021-07-06 01:47:04 make create-project
+  472  2021-07-06 01:47:04 cd ../
+  473  2021-07-06 01:47:04 ls
+  474  2021-07-06 01:47:04 pwd
+  475  2021-07-06 01:47:04 cd ..
+  476  2021-07-06 01:47:04 ls
+  477  2021-07-06 01:47:04 cd Documents/
+  478  2021-07-06 01:47:04 ls
+  479  2021-07-06 01:47:04 cd q_and_a/
+  480  2021-07-06 01:47:04 ls
+  481  2021-07-06 01:47:04 git clone git@github.com:ucan-lab/docker-laravel.git
+  482  2021-07-06 01:47:04 cd docker-laravel
+  483  2021-07-06 01:47:04 make create-project
+  484  2021-07-06 01:47:04 docker ps
+  485  2021-07-06 01:47:04 docker-compose exec app bash
+  486  2021-07-06 01:47:04 docker-compose down
+  487  2021-07-06 01:47:04 docker-compose exec app bash
+  488  2021-07-06 01:47:04 docker-compose up -d
+  489  2021-07-06 01:47:04 docker-compose exec app bash
+  490  2021-07-06 01:47:04 docker ps
+  491  2021-07-06 01:47:04 doceker-compose down
+  492  2021-07-06 01:47:04 docker compose down
+  493  2021-07-06 01:47:04 docker ps
+  494  2021-07-06 01:47:04 docker-compose up -d
+  495  2021-07-06 01:47:04 docker ps
+  496  2021-07-06 01:47:04 docker exec -it docker-laravel_app_1 bash
+  497  2021-07-06 01:47:04 history
+  498  2021-07-06 01:47:04 docker exec -it docker-laravel_app_1 bash
+  499  2021-07-06 01:47:04 docker ps
+  500  2021-07-06 01:47:04 docker-compose down
+  501  2021-07-06 01:47:14 docker ps
+  502  2021-07-06 01:48:14 docker exec -it docker-laravel_app_1 bash
+  503  2021-07-06 02:11:43 cd Documets
+  504  2021-07-06 02:11:52 cd Documents
+  505  2021-07-06 02:12:09 cd q_and_a/
+  506  2021-07-06 02:13:17 #docker-compose up -d
+  507  2021-07-06 02:13:20 docker-compose up -d
+  508  2021-07-06 02:13:47 cd docker-laravel/
+  509  2021-07-06 02:13:50 docker-compose up -d
+  510  2021-07-06 02:14:51 dokcer exec docker-laravel_app_1
+  511  2021-07-06 02:14:55 dokcer exec docker-laravel_app_1 bash
+  512  2021-07-06 02:15:05 dokcer exec -it docker-laravel_app_1 bash
+  513  2021-07-06 02:15:43 docker exec -it docker-laravel_app_1 bash
+  514  2021-07-06 02:34:01 docker-compose down
+  515  2021-07-06 22:34:11 docker ps
+  516  2021-07-06 22:34:40 docker-compose up -d
+  517  2021-07-06 22:35:32 docker ps
+  518  2021-07-06 22:40:49 docker exec -it docker-laravel_app bash
+  519  2021-07-06 22:40:56 docker exec -it docker-laravel_app_1 bash
+  520  2021-07-07 18:48:37 docker ps -a
+  521  2021-07-07 18:50:58 docker ps
+  522  2021-07-07 18:51:15 docker exec -it docker-laravel_app_1 bash
+  523  2021-07-07 19:14:12 docker-compose down
+  524  2021-07-07 19:14:47 docker ps -a
+  525  2021-07-07 19:15:21 docker compose up -d
+  526  2021-07-07 19:15:42 docker ps -a
+  527  2021-07-07 19:15:56 docker-compose down
+  528  2021-07-07 19:18:29 docker ps -a q_and_a_app_1
+  529  2021-07-07 19:18:43 docker compose up -d q_and_a_app_1
+  530  2021-07-07 19:20:15 docker-compose ps
+  531  2021-07-07 19:20:32 docker-compose up -d
+  532  2021-07-07 19:24:00 docker images
+  533  2021-07-07 19:25:04 docker images | awk '/<none/{print $3}' | xargs docker rmi
+  534  2021-07-07 19:25:11 docker images
+  535  2021-07-07 19:25:47 docker-compose logs
+  536  2021-07-07 19:26:26 docker-compose ps
+  537  2021-07-07 19:26:33 docker ps
+  538  2021-07-07 19:27:13 docker-compose stop
+  539  2021-07-07 19:27:19 docker-compose rm --force
+  540  2021-07-07 19:27:20 docker-compose build
+  541  2021-07-07 19:31:37 docker images | awk '/<none/{print $3}' | xargs docker rmi
+  542  2021-07-07 19:32:16 docker-compose up
+  543  2021-07-07 19:34:13 docker-compose down
+  544  2021-07-07 19:35:06 docker-compose up -d
+  545  2021-07-07 19:37:40 docker ps
+  546  2021-07-07 19:37:48 docker ps -a
+  547  2021-07-07 19:47:55 docker ps
+  548  2021-07-07 19:48:06 dokcer-compos ps
+  549  2021-07-07 19:48:09 dokcer-compose ps
+  550  2021-07-07 19:48:24 docker-compose ps
+  551  2021-07-07 19:48:47 docker-compose down
+  552  2021-07-07 19:49:02 docker-compose ps
+  553  2021-07-08 21:29:05 history
+  554  2021-07-08 21:40:01 HISTTIMEFORMAT='%F %T '
+  555  2021-07-08 21:40:05 history
+  556  2021-07-08 21:47:15 echo $HISTFILESIZE
+  557  2021-07-08 21:47:35 echo $HISTSIZE
+  558* 2021-07-08 21:49:47 
+  559  2021-07-08 21:50:52 less ~/.bash_history
+  560  2021-07-08 21:54:54 history
+  561  2021-07-08 23:13:35 history | grep git
+  562  2021-07-08 23:52:52 history > hst.txt
