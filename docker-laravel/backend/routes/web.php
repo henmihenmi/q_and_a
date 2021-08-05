@@ -8,7 +8,8 @@ use Illuminate\Support\Facades\Route;
 //     return view('App');
 // })->where('any', '.*'); //補足：.*は、正規表現で0文字以上の任意の文字列を意味する
 
-Auth::routes();
+// Auth::routes();
 
 // Route::get('/home', [HomeController::class, 'index'])->name('home');
-Route::get('/', [QuestionController::class, 'index'])->name('question.index');
+Route::get('/', [QuestionController::class, 'index'])->name('questions.index');
+Route::resource('questions', QuestionController::class)->only(['show']);

@@ -16,4 +16,13 @@ class QuestionController extends Controller
             'questions' => $questions,
         ]);
     }
+
+    public function show($question_id)
+    {
+        $question = Question::findOrFail($question_id);
+
+        return view('questions.show', [
+            'question' => $question,
+        ]);
+    }
 }
