@@ -21,7 +21,7 @@
 .main_contents {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     margin-top: 20px;
 }
 
@@ -48,4 +48,31 @@ small {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* 質問投稿画面 */
+
+/* .main_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 80%;
+} */
+
+.create_container {
+    display: flex;
+    justify-content: center;
+    /* align-items: center;
+    margin-top: 20px;
+    width: 80%;
+    border: 1px solid; */
+}
+.question_form {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-top: 20px;
+    width: 80%;
+    border: 1px solid;
 }

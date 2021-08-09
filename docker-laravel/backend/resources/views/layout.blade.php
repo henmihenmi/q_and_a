@@ -21,7 +21,7 @@
                 </div>
                 <ul class="header_menu">
                     <li>
-                        <a href="#">質問する</a>
+                        <a href="{{ route('questions.create') }}">質問する</a>
                     </li>
                     <li>
                         <a href="#">ランダムに質問を表示</a>

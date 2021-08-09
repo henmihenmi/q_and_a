@@ -25,4 +25,22 @@ class QuestionController extends Controller
             'question' => $question,
         ]);
     }
+
+    public function create()
+    {
+        return view('questions/create');
+    }
+
+    public function store(Request $request)
+    {
+        $question = new Question();
+        $question->title = $request->title;
+        $question->content = $request->content;
+        $question->status = 1;
+        $question->save();
+
+        return redirect()->route('questions.index', [
+            'id' => $question->id,
+        ]);
+    }
 }

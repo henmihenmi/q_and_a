@@ -16,7 +16,7 @@
                     <!-- <div>ユーリ・ガガーリンです。</div> -->
                     <hr>
                     <a href="{{ route('questions.index') }}">
-                              ←質問一覧に戻る
+                        ←質問一覧に戻る
                     </a>
                 </div>
             </div>
