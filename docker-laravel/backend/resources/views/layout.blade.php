@@ -10,7 +10,9 @@
 <body>
    <div class="container">
             <header class="header_container">
-                <h1 class="title_log">Q&A</h1>
+                <h1 class="title_log" >
+                    <a href="{{ route('questions.index') }}">Q&A</a>
+                </h1>
                 <div class="search">
                     <input
                         type="search"
