@@ -4,8 +4,18 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-
+use App\Http\Models\Question;
 class Answer extends Model
 {
-    use HasFactory;
+    // use HasFactory;
+
+    public function questions()
+    {
+        return $this->belongsTo(Question::class)
+    }
+
+    protected $fillable = [
+        'question_id',
+        'content',
+    ]
 }

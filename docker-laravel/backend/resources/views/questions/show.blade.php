@@ -15,9 +15,13 @@
                     <h3>回答：</h3>
                     <!-- <div>ユーリ・ガガーリンです。</div> -->
                     <hr>
-                    <a href="{{ route('questions.index') }}">
-                        ←質問一覧に戻る
-                    </a>
+                    <div>
+                        <a href="{{ route('answers.create') }}">回答する</a>
+                    </div>
+                    <div>
+                        <a href="{{ route('questions.index') }}">←質問一覧に戻る</a>
+                    </div>
+
                 </div>
             </div>
         </div>
