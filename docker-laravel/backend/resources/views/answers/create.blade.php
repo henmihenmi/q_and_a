@@ -14,16 +14,16 @@
                         </ul>
                     </div>
                 @endif
-                <form action="{{ route('answers.store') }}" method="post">
+                <form action="{{ route('questions.answers.store', ['question' => $question]) }}" method="post">
                     @csrf
                     <div class="answer_content">
-                        <h2回答内容 : ></h2><br>
+                        <h2 >回答内容 :</h2><br>
                         <textarea type="text" name="content">{{ old('content') }}</textarea>
                     </div>
                     <div class="answer_submit">
                         <button type="submit">追加する</button>
                     </div>
-                    <a href="{{ route('questions.show') }}">
+                    <a href="{{ route('questions.show', ['question' => $question]) }}">
                         ←質問詳細に戻る
                     </a>
                 </form>

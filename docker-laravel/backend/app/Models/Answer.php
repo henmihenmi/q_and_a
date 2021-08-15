@@ -11,11 +11,11 @@ class Answer extends Model
 
     public function questions()
     {
-        return $this->belongsTo(Question::class)
+        return $this->belongsTo(Question::class);
     }
 
-    protected $fillable = [
-        'question_id',
-        'content',
-    ]
+    // protected $fillable = [
+    //     'question_id',
+    //     'content',
+    // ];
 }

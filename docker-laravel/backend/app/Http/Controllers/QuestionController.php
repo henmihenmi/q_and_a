@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\CreateQuestion;
+use App\Models\Answer;
 use App\Models\Question;
 use Illuminate\Http\Request;
 
@@ -10,7 +11,6 @@ class QuestionController extends Controller
 {
     public function index()
     {
-        // return "Hello world";
         $questions = Question::all();
 
         return view('questions/index', [
@@ -18,12 +18,18 @@ class QuestionController extends Controller
         ]);
     }
 
+    //$question_idを受け取ってる
     public function show($question_id)
     {
+        // findOrFailは$question_idがなければ４０４を返す
         $question = Question::findOrFail($question_id);
+
+        // Questionモデルのリレーションメソッドが定義してあるので、answersプロパティにアクセスする
+        $answers = Question::find($question_id)->answers;
 
         return view('questions.show', [
             'question' => $question,
+            'answers' => $answers,
         ]);
     }
 
