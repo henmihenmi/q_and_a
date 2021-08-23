@@ -46,8 +46,6 @@ class QuestionController extends Controller
         $question->status = 1;
         $question->save();
 
-        return redirect()->route('questions.index', [
-            'id' => $question->id,
-        ]);
+        return redirect()->route('questions.index');
     }
 }
