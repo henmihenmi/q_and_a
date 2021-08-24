@@ -5,6 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use App\Models\Answer;
+use Carbon\Carbon;
 
 class Question extends Model
 {
@@ -13,5 +14,10 @@ class Question extends Model
     public function answers()
     {
         return $this->hasMany(Answer::class);
+    }
+
+    public function getFormattedCreatedAtAttribute()
+    {
+        return Carbon::parse($this->attributes['created_at'])->format('Y/m/d');
     }
 }

@@ -1,8 +1,7 @@
 @extends('layout')
 
 @section('content')
-    <main class="main_container">
-        <h2>質問詳細</h2>
+    <main class="container">
         <div class="main_contents">
             <div class="q_and_a_box">
                 <div class="question_box">

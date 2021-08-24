@@ -176,7 +176,7 @@ a {
 }
 a:hover {
     color: #1d68a7;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:not([href]):not([class]) {
@@ -4626,6 +4626,7 @@ input[type="button"].btn-block {
 .navbar-light .navbar-text a:hover,
 .navbar-light .navbar-text a:focus {
     color: rgba(0, 0, 0, 0.9);
+    text-decoration: none;
 }
 
 .navbar-dark .navbar-brand {
@@ -4667,6 +4668,7 @@ input[type="button"].btn-block {
 .navbar-dark .navbar-text a:hover,
 .navbar-dark .navbar-text a:focus {
     color: #fff;
+    text-decoration: none;
 }
 
 .card {
@@ -10336,7 +10338,7 @@ a.text-dark:focus {
     }
 
     a:not(.btn) {
-        text-decoration: underline;
+        text-decoration: none;
     }
 
     abbr[title]::after {

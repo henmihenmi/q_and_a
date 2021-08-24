@@ -1,26 +1,29 @@
 @extends('layout')
 
 @section('content')
-    <main class="main_container">
-        <h2>質問一覧</h2>
-        <div class="main_contents">
-            <div class="q_and_a_box">
-                <div class="question_box">
-                    @foreach($questions as $question)
-                        <h2>
-                            質問タイトル ：
+    <div class="container pt-4">
+
+        <div class="border-top border-bottom h4">
+            <div class="pl-3 pt-2">質問一覧</div>
+        </div>
+        <div class="container pt-3">
+            <hr class="border-dark mb-0" />
+            <ul class="list-group list-group-flush d-flex">
+                @foreach($questions as $question)
+                    <li
+                        class="list-group-item border-dark d-flex justify-content-between"
+                    >
+                        <div>
                             <a href="{{ route('questions.show', ['question' => $question]) }}">
                                 {{ $question->title }}
                             </a>
-                        </h2>
-                        <hr>
-                    @endforeach
-                </div>
-                <!-- <div class="answer_box">
-                    <h3>回答：</h3>
-                    <div>ユーリ・ガガーリンです。</div>
-                </div> -->
-            </div>
+                        </div>
+                        {{-- cretated_atをQuestion.phpにて整形 --}}
+                        <div>{{ $question->formatted_created_at }}</div>
+                    </li>
+                @endforeach
+            </ul>
+            <hr class="border-dark mt-0" />
         </div>
-    </main>
+    </div>
 @endsection

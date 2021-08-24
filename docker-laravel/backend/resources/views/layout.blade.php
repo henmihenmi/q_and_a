@@ -12,7 +12,7 @@
 <body class="bg-white">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="{{ route('questions.index') }}" >Q&Aサイト</a>
-        <div class="d-flex justify-content-center">
+        <div>
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('questions.create') }}" >質問する</a>
