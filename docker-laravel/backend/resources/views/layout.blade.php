@@ -9,26 +9,34 @@
     <script src="{{ asset('js/app.js') }}"></script>
     <title>一覧</title>
 </head>
-<body>
+<body class="bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="{{ route('questions.index') }}" >Q&Aサイト</a>
+        <div class="d-flex justify-content-center">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('questions.create') }}" >質問する</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="{{ route('questions.index') }}">Q&Aサイト</a>
-            <div>
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ route('questions.create') }}">質問する</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
         <div>
             @yield('content')
         </div>
-        <footer>
-            <p>
-                <small>©2021 - Kentaro Henmi</small>
-            </p>
-        </footer>
     </div>
+    <footer
+      class="
+        fixed-bottom
+        d-flex
+        justify-content-lg-center
+        border-top
+        pt-3
+        pb-3
+        bg-light
+      "
+    >
+      <small>©2021 - Kentaro Henmi</small>
+    </footer>
 </body>
 </html>
