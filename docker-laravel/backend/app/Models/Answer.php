@@ -5,6 +5,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use App\Http\Models\Question;
+use Carbon\Carbon;
+
 class Answer extends Model
 {
     // use HasFactory;
@@ -14,8 +16,8 @@ class Answer extends Model
         return $this->belongsTo(Question::class);
     }
 
-    // protected $fillable = [
-    //     'question_id',
-    //     'content',
-    // ];
+    public function getFormattedCreatedAtAttribute()
+    {
+        return Carbon::parse($this->attributes['created_at'])->format('Y/m/d');
+    }
 }

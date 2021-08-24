@@ -1,25 +1,37 @@
 @extends('layout')
 
 @section('content')
-    <main class="container">
-        <div class="main_contents">
-            <div class="q_and_a_box">
-                <div class="question_box">
-                    <h2>質問タイトル ： {{ $question->title }}</h2>
-                    <h3>質問内容詳細 : </h3>
-                    <div>{{ $question->content }}</div>
-                    <!-- <div>質問状況 ： {{ $question->status }}</div> -->
+    <main class="container pt-4">
+            <div class="">
+                <div class="border-bottom h5 pl-3">{{ $question->title }}</div>
+
+                <div class="pl-5">
+                    <div class="pl-5">
+                        <div>{{ $question->content }}</div>
+                    </div>
+                    <div class="d-flex justify-content-end pr-3">{{ $question->formatted_created_at }}</div>
                 </div>
-                <div class="answer_box">
-                    <h3>回答：</h3>
-                    <ul>
-                        @foreach($answers as $answer)
-                            <li>{{ $answer->content }}</li>
-                        @endforeach
-                    </ul>
+
+                <div class="d-flex justify-content-center h4">
+                    <a href="{{ route('questions.answers.create', ['question' => $question]) }}" >回答する</a>
+                </div>
+
+                <div class="p-3 bg-light">
+                    <h4>回答一覧</h4>
+                    <div class="container">
+                        <div>
+                            @foreach($answers as $answer)
+                                <div class="border rounded mb-2 p-3">
+                                    <div>{{ $answer->content }}</div>
+                                    <div class="d-flex justify-content-end">{{ $answer->formatted_created_at }}</div>
+                                </div>
+                            @endforeach
+                        </div>
+                    </div>
+
 
                     <hr>
-                    <div>
+                    <div class="d-flex justify-content-center h4">
                         <a href="{{ route('questions.answers.create', ['question' => $question]) }}">回答する</a>
                     </div>
                     <div>
