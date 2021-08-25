@@ -32,8 +32,8 @@ class CreateQuestion extends FormRequest
     public function attributes()
     {
         return [
-            'title' => 'タイトル :',
-            'content' => '質問内容 :',
+            'title' => '「タイトル」',
+            'content' => '「内容」 ',
         ];
     }
 }

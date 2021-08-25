@@ -1,33 +1,41 @@
 @extends('layout')
 
 @section('content')
-    <div class="main_container">
-        <h2>新しく質問する</h2>
-        <div class="create_container">
-            <div class="question_form">
-                @if($errors->any())
-                    <div>
-                        <ul>
-                            @foreach($errors->all() as $message)
-                            <li>{{ $message }}</li>
-                            @endforeach
-                        </ul>
-                    </div>
-                @endif
-                <form action="{{ route('questions.store') }}" method="post">
-                    @csrf
-                    <div class="question_content">
-                        <h2>タイトル : </h2><br>
-                        <input type="text" name="title" value="{{ old('title') }}"><br>
-                        <h2>質問内容 : </h2><br>
-                        <textarea type="text" name="content">{{ old('content') }}</textarea>
-                    </div>
-                    <div class="question_submit">
-                        <button type="submit">追加する</button>
-                    </div>
+    <div class="container pt-4">
+        <div class="border-top border-bottom h4">
+            <div class="pl-3 pt-2">新しく質問する</div>
+        </div>
+        <div>
+            @if($errors->any())
+                <ul class="list-unstyled">
+                    @foreach($errors->all() as $message)
+                    <li class="alert alert-warning" role="alert">
+                        <div>
+                            {{ $message }}
+                        </div>
+                    </li>
+                    @endforeach
+                </ul>
+            @endif
+        </div>
+        <div class="container">
+            <form  action="{{ route('questions.store') }}" method="post" class="pt-3">
+                @csrf
+                <div class="form-group">
+                    <label>タイトル</label>
+                    <input type="text"  name="title" value="{{ old('title') }}" class="form-control" placeholder="質問タイトルを入力して下さい">
+                </div>
+                <div class="form-group">
+                    <label>内容</label>
+                    <textarea class="form-control" rows="3" placeholder="質問内容を入力して下さい"name="content">{{ old('content') }}</textarea>
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-light">質問する</button>
+                </div>
+                <div class="pt-3">
                     <a href="{{ route('questions.index') }}">←質問一覧に戻る</a>
-                </form>
-            </div>
+                </div>
+            </form>
         </div>
     </div>
 @endsection
