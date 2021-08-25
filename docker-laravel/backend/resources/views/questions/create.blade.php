@@ -27,7 +27,7 @@
                 </div>
                 <div class="form-group">
                     <label>内容</label>
-                    <textarea class="form-control" rows="3" placeholder="質問内容を入力して下さい"name="content">{{ old('content') }}</textarea>
+                    <textarea class="form-control" rows="3" placeholder="質問内容を入力して下さい" name="content">{{ old('content') }}</textarea>
                 </div>
                 <div>
                     <button type="submit" class="btn btn-light">質問する</button>

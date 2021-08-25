@@ -9,7 +9,7 @@
     <title>一覧</title>
 </head>
 <body class="bg-white">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top border-bottom">
         <a class="navbar-brand" href="{{ route('questions.index') }}" >Q&Aサイト</a>
         <div>
             <ul class="navbar-nav">
@@ -24,18 +24,17 @@
             @yield('content')
         </div>
     </div>
-    <footer
+    {{-- <footer
       class="
         fixed-bottom
         d-flex
         justify-content-lg-center
         border-top
-        pt-3
-        pb-3
+        py-2
         bg-light
       "
     >
       <small>©2021 - Kentaro Henmi</small>
-    </footer>
+    </footer> --}}
 </body>
 </html>
