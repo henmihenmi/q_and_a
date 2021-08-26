@@ -12,7 +12,7 @@ class QuestionController extends Controller
 {
     public function index()
     {
-        $questions = Question::all();
+        $questions = Question::orderBy('id', 'desc')->get();
 
         return view('questions/index', [
             'questions' => $questions,

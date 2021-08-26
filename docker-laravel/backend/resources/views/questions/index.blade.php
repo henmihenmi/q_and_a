@@ -6,7 +6,10 @@
         <div class="border-top border-bottom h4">
             <div class="pl-3 pt-2">質問一覧</div>
         </div>
-        <div class="container pt-3">
+        <div class="text-right pr-2">
+            <a href="{{ route('questions.create') }}" type="submit" class="px-5 btn btn-light">新しく質問する</a>
+        </div>
+        <div class="container">
             <hr class="border-dark mb-0" />
             <ul class="list-group list-group-flush d-flex">
                 @foreach($questions as $question)

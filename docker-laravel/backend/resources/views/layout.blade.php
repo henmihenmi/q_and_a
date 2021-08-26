@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <script src="{{ asset('js/app.js') }}"></script>
-    <title>一覧</title>
+    <title>Q&Aサイト</title>
 </head>
 <body class="bg-white">
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top border-bottom">
