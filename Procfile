@@ -1,1 +1,1 @@
-web: vendor/bin/heroku-php-apache2 docker-laravel/backend/public/
+web: vendor/bin/heroku-php-nginx docker-laravel/backend/public/
