@@ -1,0 +1,6 @@
+mysql://b8313700849b22:64f4067d@us-cdbr-east-04.cleardb.com/heroku_395d0fe9da85bc7?reconnect=true
+
+heroku config:add APP_DATABASE='heroku_395d0fe9da85bc7'
+heroku config:add APP_DATABASE_USERNAME='b8313700849b22'
+heroku config:add APP_DATABASE_PASSWORD='64f4067d'
+heroku config:add APP_DATABASE_HOST='us-cdbr-east-04.cleardb.com'
